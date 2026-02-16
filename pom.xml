@@ -36,8 +36,8 @@
     </developers>
 
     <scm>
-        <connection>scm:https://github.com/dosanjosfelipe/CALMO</connection>
-        <developerConnection>scm:git@github.com:dosanjosfelipe/CALMO</developerConnection>
+        <connection>scm:https://github.com/dosanjosfelipe/DocsSearch.git</connection>
+        <developerConnection>scm:git@github.com:dosanjosfelipe/DocsSearch.git</developerConnection>
         <url>https://github.com/dosanjosfelipe</url>
         <tag>v1.0.0</tag>
     </scm>
