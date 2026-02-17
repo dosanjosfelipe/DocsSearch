@@ -1,4 +1,4 @@
-package me.search.indexing;
+package me.felipe.search.indexing;
 
 import com.fasterxml.jackson.core.*;
 import java.io.*;
