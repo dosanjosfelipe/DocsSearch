@@ -1,4 +1,4 @@
-package me.felipe.search.indexing;
+package dev.felipe.search.indexing;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

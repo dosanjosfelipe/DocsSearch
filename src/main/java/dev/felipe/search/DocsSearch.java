@@ -1,4 +1,4 @@
-package me.felipe.search;
+package dev.felipe.search;
 
 public class DocsSearch {
 

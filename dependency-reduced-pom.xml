@@ -28,7 +28,7 @@
               <createDependencyReducedPom>true</createDependencyReducedPom>
               <transformers>
                 <transformer>
-                  <mainClass>me.search.Main</mainClass>
+                  <mainClass>dev.felipe.search.DocsSearch</mainClass>
                 </transformer>
               </transformers>
             </configuration>

@@ -151,7 +151,7 @@
 
                             <transformers>
                                 <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>me.search.Main</mainClass>
+                                    <mainClass>dev.felipe.search.DocsSearch</mainClass>
                                 </transformer>
                             </transformers>
 

@@ -1,4 +1,4 @@
-package me.felipe.search.indexing;
+package dev.felipe.search.indexing;
 
 import java.io.*;
 import java.util.*;
