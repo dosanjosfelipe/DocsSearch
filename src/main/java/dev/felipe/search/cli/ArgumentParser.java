@@ -1,9 +1,9 @@
 package dev.felipe.search.cli;
 
-import me.search.indexing.FileScanner;
+import dev.felipe.search.indexing.FileScanner;
 import dev.felipe.search.core.Searcher;
 import dev.felipe.search.ranking.ScoreCalculator;
-import me.search.text.PipelineFormatter;
+import dev.felipe.search.text.PipelineFormatter;
 import dev.felipe.search.utils.NameFormatter;
 import java.nio.file.Paths;
 import java.util.*;
@@ -47,7 +47,7 @@ public class ArgumentParser {
         Map<String, List<Integer>> rootCounter = searcher.countTermFrequency(rootArgs, rootTextHash);
         Map<String, List<Integer>> perfectCounter = searcher.countTermFrequency(perfectArgs, perfectTextHash);
 
-// -------------------- TERMINAL ---------------------
+//                      -------------------- TERMINAL ---------------------
         if (!fileHash.isEmpty()) {
             Map<String, Double> score = scoreCalculator.defineScore(rootArgs, perfectArgs,
                     rootTextHash, perfectTextHash, rootCounter, perfectCounter);
